@@ -7,7 +7,7 @@ targetImage.addEventListener('click', () => {
     targetImage.style.opacity = '0';
 
     setTimeout(() => {
-        targetImage.src = 'images/' + images[i];
+        targetImage.src = '/images/' + images[i];
         i++;
 
         if (i >= images.length) {
