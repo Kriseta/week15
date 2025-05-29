@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NAME SURNAME - CV</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/c3b0f38585.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="cv">
+    <div class="left-side">
+      <header>
+        <h1><%= cv.nimi %></h1>
+        <h2><%= cv.perekonnanimi %></h2>
+        <p class="subtitle">Curriculum Vitae</p>
+      </header>
+
+
+
+      <div class="contact">
+        <p><i class="fa-solid fa-phone"></i> <%= cv.telefon %></p>
+        <p><i class="fa-solid fa-envelope"></i> <%= cv.email %></p>
+        <p><i class="fa-solid fa-location-dot"></i> <%= cv.tn %></p>
+      </div>
+
+
+      <section class="profile">
+        <h3>Profile</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et nisi sit amet elit gravida feugiat.</p>
+      </section>
+
+
+      <section class="experience">
+        <h3>Experience</h3>
+        <ul>
+          <li><strong>Place I - YYYY</strong><br>Lorem ipsum dolor sit amet.</li>
+          <li><strong>Place II - YYYY</strong><br>Vestibulum ante ipsum primis.</li>
+          <li><strong>Place III - YYYY</strong><br>Praesent non nisi sed massa.</li>
+          <li><strong>Place IV - YYYY</strong><br>Fusce non nisl euismod.</li>
+        </ul>
+      </section>
+
+
+      <section class="references">
+        <h3>Reference</h3>
+        <ul>
+          <li><strong>Name I</strong><br>Position or company</li>
+          <li><strong>Name II</strong><br>Position or company</li>
+        </ul>
+      </section>
+    </div>
+
+
+    <div class="right-side">
+      <div class="avatar">
+  <img src="images/1.JPG" alt="Avatar">
+</div>
+
+
+      <section>
+        <h3>Education</h3>
+        <ul>
+          <li><strong>Place I - YYYY</strong><br>Lorem ipsum dolor sit amet.</li>
+          <li><strong>Place II - YYYY</strong><br>Consectetur adipiscing elit.</li>
+        </ul>
+      </section>
+
+
+      <section>
+        <h3>Language</h3>
+        <ul>
+          
+          <li>Language I</li>
+          <li>Language II</li>
+          <li>Language III</li>
+        </ul>
+      </section>
+
+
+      <section>
+        <h3>Skills</h3>
+        <ul>
+          <li>Skill I</li>
+          <li>Skill II</li>
+          <li>Skill III</li>
+          <li>Skill IV</li>
+          <li>Skill V</li>
+        </ul>
+        
+      </section>
+    </div>
+  </div>
+
+  <script src="apps.js"></script>
+</body>
+</html>
